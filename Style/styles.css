@@ -1,0 +1,183 @@
+/* All set to ZERO */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Web site body */
+body {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* Nav bar CSS */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Banner CSS Start */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #feeae9;
+  border-radius: 10px;
+  margin-top: 24px;
+}
+
+.banner-title {
+  color: #1f1f1f;
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  padding-top: 66px;
+}
+
+.banner-description {
+  max-width: 456px;
+  color: #4e4e4e;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.banner-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.banner-price-tag {
+  color: #ff136f;
+  font-family: Poppins;
+  font-size: 41px;
+  font-weight: 400;
+}
+
+.banner-button {
+  max-width: 168px;
+  display: flex;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(
+    --Linear,
+    linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%)
+  );
+  border: none;
+  margin-bottom: 75px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Banner CSS End */
+
+/* Categories Section CSS Star*/
+.catagories-section {
+  margin: 60px 0 98px 0;
+}
+
+.categories-container {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.categories-items-container {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 33px 46px;
+  width: 359px;
+}
+
+#watch {
+  background-color: #ff9c35;
+}
+#bag {
+  background-color: #ff136f;
+}
+#shoes {
+  background-color: #3f07f8;
+}
+/* Categories section CSS End */
+
+/* Shoes Cards CSS Start */
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-card {
+  border-radius: 20px;
+  border: 2px solid #929292;
+  background: #fff;
+  box-shadow: 0 6px 20px var(--sds-size-depth-025) rgba(146, 146, 146, 0.2);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.card-title {
+  color: #1f1f1f;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-description {
+  color: #4e4e4e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.card-price-tag {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card-button {
+  display: flex;
+  width: 168px;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Global CSS */
+.global-title {
+  color: #1f1f1f;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
